@@ -1,0 +1,23 @@
+{
+    "name": "koficypher/laranice",
+    "description": "a laravel nice admin template preset",
+    "keywords": ["laravel","laravel preset", "nice admin"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kofi Cypher",
+            "email": "skcypher6@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "KofiCypher\\Laranice": "src/" 
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["KofiCypher\\Laranice\\LaraniceServiceProvider"]
+        }
+    }
+}
